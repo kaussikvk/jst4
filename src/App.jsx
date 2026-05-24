@@ -1,10 +1,10 @@
 import React from 'react'
-import UseEffectAPI from './TaskSix'
+import TaskSeven from './TaskSeven'
 
 export default function App() {
   return (
     <div>
-      <UseEffectAPI/>
+      <TaskSeven/>
     </div>
   )
 }
