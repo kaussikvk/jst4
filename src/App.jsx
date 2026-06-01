@@ -1,10 +1,10 @@
 import React from 'react'
-import TaskSeven from './TaskSeven'
+import TaskTwelve from './TaskTwelve'
 
 export default function App() {
   return (
     <div>
-      <TaskSeven/>
+      <TaskTwelve/>
     </div>
   )
 }
