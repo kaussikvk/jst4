@@ -1,12 +1,7 @@
-import { Routes, Route } from "react-router-dom";
-import TaskThirteen from "./TaskThirteen";
+import TaskFourteen from "./TaskFourteen";
 
 function App() {
-  return (
-    <Routes>
-      <Route path="/" element={<TaskThirteen />} />
-    </Routes>
-  );
+  return <TaskFourteen />;
 }
 
 export default App;
