@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+
+.light {
+  background: #f3f7ff;
+}
+
+.dark {
+  background: #111827;
+}
+
+.counter-box {
+  width: 350px;
+  padding: 35px;
+  border-radius: 22px;
+  text-align: center;
+  transition: 0.4s;
+}
+
+.light .counter-box {
+  background: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+}
+
+.dark .counter-box {
+  background: #1f2937;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.06);
+}
+
+.top-text {
+  font-size: 18px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.light .top-text {
+  color: #1e3a8a;
+}
+
+.dark .top-text {
+  color: #dbeafe;
+}
+
+.count-number {
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
+.light .count-number {
+  color: #2563eb;
+}
+
+.dark .count-number {
+  color: #93c5fd;
+}
+
+.btn-row {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.btn-row button,
+.theme-toggle {
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-row button:hover,
+.theme-toggle:hover {
+  transform: scale(1.06);
+}
+
+.plus,
+.minus,
+.reset {
+  width: 70px;
+  height: 45px;
+  border-radius: 12px;
+  color: white;
+  font-size: 18px;
+}
+
+.plus {
+  background: #16a34a;
+}
+
+.minus {
+  background: #dc2626;
+}
+
+.reset {
+  background: #2563eb;
+}
+
+.theme-toggle {
+  width: 100%;
+  padding: 14px;
+  border-radius: 14px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.light .theme-toggle {
+  background: #111827;
+  color: white;
+}
+
+.dark .theme-toggle {
+  background: #dbeafe;
+  color: #111827;
+}
