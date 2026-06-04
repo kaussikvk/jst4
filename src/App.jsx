@@ -6,7 +6,6 @@ import {
 } from "react-router-dom";
 
 import TaskFour from "./TaskFour";
-import TaskFive from "./TaskFive";
 import TaskSix from "./TaskSix";
 import TaskSeven from "./TaskSeven";
 import TaskThirteen from "./TaskThirteen";
@@ -20,7 +19,6 @@ function App() {
         <nav className="navbar">
           <Link to="/task4">Task4</Link>
 
-          <Link to="/task5">Task5</Link>
 
           <Link to="/task6">Task6</Link>
 
@@ -39,10 +37,7 @@ function App() {
             element={<TaskFour />}
           />
 
-          <Route
-            path="/task5"
-            element={<TaskFive />}
-          />
+        
 
           <Route
             path="/task6"

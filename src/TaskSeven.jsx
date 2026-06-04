@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import "./Taskseven.css";
+import "./TaskSeven.css";
 
 function Taskseven() {
   const fileInputRef = useRef(null);
