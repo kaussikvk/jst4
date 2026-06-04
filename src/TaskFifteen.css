@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Trebuchet MS;
+}
+
+body {
+  background: #edf4ff;
+}
+
+.crud-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.crud-box {
+  width: 100%;
+  max-width: 1100px;
+  background: white;
+  padding: 30px;
+  border-radius: 25px;
+  border: 2px solid #dbeafe;
+}
+
+.crud-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1e3a8a;
+}
+
+.form-box {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.form-box input {
+  flex: 1;
+  min-width: 220px;
+  padding: 14px;
+  border: 2px solid #bfdbfe;
+  border-radius: 12px;
+  outline: none;
+  font-size: 15px;
+}
+
+.form-box input:focus {
+  border-color: #2563eb;
+}
+
+.form-box button {
+  padding: 14px 25px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.form-box button:hover {
+  transform: scale(1.05);
+}
+
+.add-btn {
+  background: #2563eb;
+}
+
+.update-btn {
+  background: #7c3aed;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #1d4ed8;
+  color: white;
+  padding: 15px;
+}
+
+td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  background: #f1f5ff;
+}
+
+.action-btns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.edit-btn {
+  background: #0f766e;
+}
+
+.delete-btn {
+  background: #dc2626;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 700px) {
+  .crud-box {
+    padding: 20px;
+  }
+
+  .crud-title {
+    font-size: 26px;
+  }
+
+  th,
+  td {
+    padding: 12px;
+    font-size: 13px;
+  }
+
+  .action-btns {
+    flex-direction: column;
+  }
+}
