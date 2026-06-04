@@ -14,7 +14,6 @@ import TaskFifteen from "./TaskFifteen";
 
 function App() {
   return (
-    <BrowserRouter>
       <div>
         <nav className="navbar">
           <Link to="/task4">Task4</Link>
@@ -65,7 +64,7 @@ function App() {
           />
         </Routes>
       </div>
-    </BrowserRouter>
+  
   );
 }
 
